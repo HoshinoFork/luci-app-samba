@@ -53,6 +53,7 @@ if nixio.fs.access("/etc/config/fstab") then
 end
 
 s:option(Value, "users", translate("Allowed users")).rmempty = true
+s:option(Value, "lists", translate("Write users")).rmempty = true
 
 ro = s:option(Flag, "read_only", translate("Read-only"))
 ro.rmempty = false

@@ -25,6 +25,9 @@ msgstr "允许系统用户通过网络共享访问他们的家目录"
 msgid "Allowed users"
 msgstr "允许用户"
 
+msgid "Write users"
+msgstr "允许写用户"
+
 msgid "Browseable"
 msgstr "可浏览"
 
